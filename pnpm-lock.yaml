@@ -2,10 +2,12 @@ lockfileVersion: 5.4
 
 specifiers:
   '@thirdweb-dev/contracts': ^3
+  dotenv: ^16.0.3
   hardhat: ^2.10.1
 
 dependencies:
   '@thirdweb-dev/contracts': 3.4.4
+  dotenv: 16.0.3
 
 devDependencies:
   hardhat: 2.13.0
@@ -987,6 +989,11 @@ packages:
     resolution: {integrity: sha512-/VTCrvm5Z0JGty/BWHljh+BAiw3IK+2j87NGMu8Nwc/f48WoDAC395uomO9ZD117ZOBaHmkX1oyLvkVM/aIT3w==}
     engines: {node: '>=0.3.1'}
     dev: true
+
+  /dotenv/16.0.3:
+    resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
+    engines: {node: '>=12'}
+    dev: false
 
   /elliptic/6.5.4:
     resolution: {integrity: sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ==}
